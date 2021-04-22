@@ -1,0 +1,57 @@
+body{
+	background-image: url(fondo.jpg);
+}
+.t{
+	position: absolute;
+	top: 3%;
+	font-size: 560%;
+	font-family: titulo2;
+	left: 43.5%;
+	z-index: 2;
+	-webkit-text-stroke: 1px #AD85FC ;
+ 	color: #BAF6FF ; 
+}
+
+.tt{
+	position: absolute;
+	top: 11%;
+	font-size: 860%;
+	font-family: titulo;
+	left: 34%;
+	z-index: 2;
+ 	color: #BAF6FF; 
+}
+
+.img1{
+	position: absolute;
+	top: 25%;
+	width: 45%;
+	height: 68%;
+	left: 3%;
+	background-color: #ffffff;
+	border-style: double;
+	color: #D7BDE2;
+	border-width: 10px;
+}
+.img2{
+	position: absolute;
+	top: 25%;
+	width: 45%;
+	height: 68%;
+	left: 3%;
+	background-color: #ffffff;
+	border-style: double;
+	color: #A2EDFA;
+	border-width: 10px;
+}
+
+
+@font-face{
+	font-family: titulo2;
+	src: url(titulo.ttf);
+} 
+
+@font-face{
+	font-family: titulo;
+	src: url(titulo3.ttf);
+}
